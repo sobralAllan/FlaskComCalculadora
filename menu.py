@@ -5,7 +5,7 @@ import multiplicacao
 import divisao
 import tabuada
 import vetores
-this.opcao = 0 #Crio a variável global
+this.opcao = -1 #Crio a variável global
 num1 = 0
 num2 = 0
 
@@ -30,7 +30,7 @@ def mostrarMenu():
 
 def operacao():
     #Mostrar o menu em tela
-    while this.opcao != 5:
+    while this.opcao != 0:
         mostrarMenu()
         #Realizar as operações
         if this.opcao == 1:
